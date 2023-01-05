@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Capstone project
-author: [Alani]
+author: [rkuo]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
