@@ -6,10 +6,10 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-期末專題實作: Stock(股票交易強化學習)
+期末專題實作: Stock DQN(股票交易強化學習)
 
 ---
-## Stock(股票交易強化學習)
+## Stock Trade(股票交易強化學習)
 
 ### 系統簡介及功能說明
 
