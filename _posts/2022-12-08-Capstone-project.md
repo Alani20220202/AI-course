@@ -6,10 +6,10 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-期末專題實作: Virtual Try-On (試穿衣服)
+期末專題實作: Stock(股票交易強化學習)
 
 ---
-## Virty Try-On (試穿衣服)
+## Stock(股票交易強化學習)
 
 ### 系統簡介及功能說明
 
