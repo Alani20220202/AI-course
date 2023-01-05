@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Capstone project
+title: Pose Estimation
 author: []
 category: [Lecture]
 tags: [jekyll, ai]
