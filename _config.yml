@@ -3,7 +3,8 @@ tagline: Capstone project
 
 author:
   name: Alani20220202
-  url: https://www.facebook.com/Alani20220202
+  url: https://github.com/Alani20220202
+
 
 plugins:
   - jekyll-feed
