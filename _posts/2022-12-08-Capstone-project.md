@@ -13,34 +13,52 @@ tags: [jekyll, ai]
 
 ### 系統簡介及功能說明
 
-1. **系統簡介**:
+1. **系統簡介**:•	策略包括載入資料(Load Data) . 訓練和測試(Train and  Test)  . 總結(Summarize model accuracy and Loss)
+•	策略結合三種的最佳特性，從而根據不同的市場條件進行調整。
+A2C：使用並行的相同Agent的副本來更新不同數據樣本的梯度。每個Agent獨立工作,與相同環境交互;
+PPO：引入PPO來控制策略梯度更新，確保新策略不會與之前的策略相差太大;
+DDPG：DDPG 結合了Q-learning和策略梯度的框架，並使用神經網絡作為函數逼近器。
 
-2. **功能說明**:
+2. **功能說明**:用深度強化學習方法集成來做自動學習股票交易策略
 
 ---
 ### 系統方塊圖
 系統流程圖<br>
-![]()
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/11.jpg)
 
 AI模型說明<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/stock_dqn.png?raw=true)
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/22.jpg)
 
 ---
 ### 製作步驟
-
-1. 建立資料集 dataset
-2. 移植程式to Kaggle
+1. 下載股票資料： download_stock_quote.py
+   git clone https://github.com/rkuo2000/tf
+   cd tf
+   pip install alpha_vantage
+python download_stock_quote.py MSFT
+2. 建立資料集 dataset
+   移植程式to Kaggle
 3. Kaggle上訓練模型
 4. Kaggle上測試模型
 
 ---
 ### 系統測試及成果展示
+**Load Tesla data**
 
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/33.jpg)
 
-<iframe width="835" height="470" src="https://www.youtube.com/embed/DtzN5vtEgOk" title="RL-Robocar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/44.jpg)
 
-<br>
-<br>
+**Train and  Test**
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/55.jpg)
 
-*This site was last updated {{ site.time | date: "%B %d, %Y" }}.*
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/66.jpg)
+
+**Summarize model accuracy and Loss**
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/77.jpg)
+
+![](https://github.com/Alani20220202/AI-course/blob/gh-pages/images/88.jpg)
+
+### 總結
+可以藉由分析股票交易，最大化投資績效-例如預期回報。預期回報最大化可以基於對潛在回報和風險的估計獲得。這在復雜多變的股票市場中，設計盈利策略具有挑戰性。揭示一種深度強化學習方案，該方案通過最大化投資回報來自動學習股票交易策略。
 
