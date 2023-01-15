@@ -175,7 +175,7 @@ Univariate - Time series forecasting
 
 ### 成果展示
 
-**KAGGLE**:https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock?scriptVersionId=116430236
+**KAGGLE**:[https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock](https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock)<br>
 
 **Train and  Test**
 
@@ -198,6 +198,17 @@ Univariate - Time series forecasting
 ![35](https://user-images.githubusercontent.com/114159696/211155294-86f59881-4c75-42a9-8039-a11dfb23c2c3.jpg)
 
 ![18](https://user-images.githubusercontent.com/114159696/211050556-5daab456-ca82-4039-9fbd-9e1ca2f5688a.jpg)
+
+**KAGGLE**:[https://www.kaggle.com/code/alani20220202/stock-dqn](https://www.kaggle.com/code/alani20220202/stock-dqn)<br>
+
+![43](https://user-images.githubusercontent.com/114159696/212553724-6f42f302-4aa8-450e-92fc-fb0893135002.jpg)
+
+**KAGGLE**:[https://www.kaggle.com/code/alani20220202/stock-lstm](https://www.kaggle.com/code/alani20220202/stock-lstm)<br>
+
+![44](https://user-images.githubusercontent.com/114159696/212554097-04c4a220-a763-41df-8c12-14aba99da8a6.jpg)
+
+
+
 ### 總結
 可以藉由分析股票交易，最大化投資績效-例如預期回報，預期回報最大化可以基於對潛在回報和風險的估計獲得，這在復雜多變的股票市場中，設計盈利策略具有挑戰性，揭示一種深度強化學習方案，該方案通過最大化投資回報來自動學習股票交易策略。
 
