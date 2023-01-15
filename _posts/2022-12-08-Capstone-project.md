@@ -46,10 +46,14 @@ LSTM(Long short-term memory)，主要由四個Component組成: Input Gate、Outp
 
 ![41](https://user-images.githubusercontent.com/114159696/212551726-47968235-bf30-45c9-b729-66a18c10ef1d.jpg)
 
-Input Gate: 當將feature輸入時，input gate會去控制是否將這次的值輸入
-Memory Cell: 將計算出的值儲存起來，以利下個階段拿出來使用
-Output Gate: 控制是否將這次計算出來的值output
-Forget Gate: 是否將Memory清掉(format)，有點restart的概念。
+•	Input Gate: 當將feature輸入時，input gate會去控制是否將這次的值輸入
+
+•	Memory Cell: 將計算出的值儲存起來，以利下個階段拿出來使用
+
+•	Output Gate: 控制是否將這次計算出來的值output
+
+•	Forget Gate: 是否將Memory清掉(format)，有點restart的概念。
+
 其中，“是否”這件事情，是可以透過神經網路進行學習。
 
 接下來我們可以更近一步去看數學表示方式：
