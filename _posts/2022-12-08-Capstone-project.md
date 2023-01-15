@@ -15,17 +15,17 @@ tags: [jekyll, ai]
 
 1. **系統簡介**:為投資組合分配設計一個自動交易解決方案。 我們將股票交易過程建模為馬爾可夫決策過程 (MDP)，將我們的交易目標制定為最大化問題。
 
-該算法使用深度強化學習 (DRL) 算法進行訓練，強化學習環境的組成部分是：Action . Reward function . State
+    該算法使用深度強化學習 (DRL) 算法進行訓練，強化學習環境的組成部分是：Action . Reward function . State
 
-•	策略包括載入資料(Load Data) . 訓練和測試(Train and  Test)  . 總結(Summarize model accuracy and Loss)
+    •	策略包括載入資料(Load Data) . 訓練和測試(Train and  Test)  . 總結(Summarize model accuracy and Loss)
 
-•	策略結合三種的最佳特性，從而根據不同的市場條件進行調整。
+    •	策略結合三種的最佳特性，從而根據不同的市場條件進行調整。
 
-A2C：使用並行的相同Agent的副本來更新不同數據樣本的梯度。每個Agent獨立工作,與相同環境交互;
+    A2C：使用並行的相同Agent的副本來更新不同數據樣本的梯度。每個Agent獨立工作,與相同環境交互;
 
-PPO：引入PPO來控制策略梯度更新，確保新策略不會與之前的策略相差太大;
+    PPO：引入PPO來控制策略梯度更新，確保新策略不會與之前的策略相差太大;
 
-DDPG：DDPG 結合了Q-learning和策略梯度的框架，並使用神經網絡作為函數逼近器。
+     DDPG：DDPG 結合了Q-learning和策略梯度的框架，並使用神經網絡作為函數逼近器。
 
 2. **功能說明**:用深度強化學習方法集成來做自動學習股票交易策略
 
@@ -57,7 +57,7 @@ Forget Gate: 是否將Memory清掉(format)，有點restart的概念。
 ![42](https://user-images.githubusercontent.com/114159696/212551929-dabe7984-952d-4435-ac59-1a7111126715.jpg)
 
 
-**ANN - Artificial Neural Network**
+## ANN - Artificial Neural Network
 
 Artificial Neural Networks (ANN) are multi-layer fully-connected neural nets that look like the figure below. They consist of an input layer, multiple hidden layers, and an output layer. Every node in one layer is connected to every other node in the next layer. We make the network deeper by increasing the number of hidden layers.
 
@@ -105,7 +105,7 @@ AI模型說明<br>
 5. Kaggle上測試模型
 
 ---
-### 系統測試
+### 過程
 **1.Load Tesla data**
 
 Dataset contains following fields
@@ -147,11 +147,11 @@ Univariate - Time series forecasting
 ![20](https://user-images.githubusercontent.com/114159696/211153538-ea7df2b0-e7ab-4855-b546-a602ff7263ce.jpg)
 
 
-**Automatically select Lag value from PACF graph**
+**4.Automatically select Lag value from PACF graph**
 
 ![27](https://user-images.githubusercontent.com/114159696/211154226-5a109992-f817-402b-ac4c-9b479e759015.jpg)
 
-**Build an MLP model**
+**5.Build an MLP model**
 
 •Sequential() - The sequential API allows you to create models layer-by-layer
 
@@ -169,13 +169,15 @@ Univariate - Time series forecasting
 
 ![28](https://user-images.githubusercontent.com/114159696/211154474-3e998ddd-007a-45b8-8456-b0e8389a0485.jpg)
 
-**Fit data to Model**
+**6.Fit data to Model**
 
 ![29](https://user-images.githubusercontent.com/114159696/211154617-fc61aa50-28d5-4722-a16b-efb897054084.jpg)
 
+---
+
 ### 成果展示
 
-**KAGGLE**:[https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock](https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock)<br>
+**KAGGLE**:[time-series-forecasting-tesla-stock](https://www.kaggle.com/code/alani20220202/time-series-forecasting-tesla-stock)<br>
 
 **Train and  Test**
 
@@ -199,11 +201,11 @@ Univariate - Time series forecasting
 
 ![18](https://user-images.githubusercontent.com/114159696/211050556-5daab456-ca82-4039-9fbd-9e1ca2f5688a.jpg)
 
-**KAGGLE**:[https://www.kaggle.com/code/alani20220202/stock-dqn](https://www.kaggle.com/code/alani20220202/stock-dqn)<br>
+**KAGGLE**:[stock-dqn](https://www.kaggle.com/code/alani20220202/stock-dqn)<br>
 
 ![43](https://user-images.githubusercontent.com/114159696/212553724-6f42f302-4aa8-450e-92fc-fb0893135002.jpg)
 
-**KAGGLE**:[https://www.kaggle.com/code/alani20220202/stock-lstm](https://www.kaggle.com/code/alani20220202/stock-lstm)<br>
+**KAGGLE**:[stock-lstm](https://www.kaggle.com/code/alani20220202/stock-lstm)<br>
 
 ![44](https://user-images.githubusercontent.com/114159696/212554097-04c4a220-a763-41df-8c12-14aba99da8a6.jpg)
 
