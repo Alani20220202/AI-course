@@ -30,7 +30,7 @@ tags: [jekyll, ai]
 2. **功能說明**:用深度強化學習方法集成來做自動學習股票交易策略
 
 
-## RNN - Recurrent Neural Network
+### RNN - Recurrent Neural Network
 
 A recurrent neural network (RNN) is a type of artificial neural network which uses sequential data or time series data. These deep learning algorithms are commonly used for ordinal or temporal problems, such as language translation, natural language processing (nlp), speech recognition, and image captioning; they are incorporated into popular applications such as Siri, voice search, and Google Translate.
 
@@ -40,7 +40,7 @@ Like feedforward and convolutional neural networks (CNNs), recurrent neural netw
 ![33](https://user-images.githubusercontent.com/114159696/211155173-64f0726a-78d0-4285-8eae-0de3850193c5.jpg)
 
 
-## LSTM
+### LSTM
 
 LSTM(Long short-term memory)，主要由四個Component組成: Input Gate、Output Gate、Memory Cell以及Forget Gate。
 
@@ -57,7 +57,7 @@ Forget Gate: 是否將Memory清掉(format)，有點restart的概念。
 ![42](https://user-images.githubusercontent.com/114159696/212551929-dabe7984-952d-4435-ac59-1a7111126715.jpg)
 
 
-## ANN - Artificial Neural Network
+### ANN - Artificial Neural Network
 
 Artificial Neural Networks (ANN) are multi-layer fully-connected neural nets that look like the figure below. They consist of an input layer, multiple hidden layers, and an output layer. Every node in one layer is connected to every other node in the next layer. We make the network deeper by increasing the number of hidden layers.
 
